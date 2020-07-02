@@ -1,0 +1,10 @@
+{
+  "home": {
+    "navbar": {
+      "description": "Un peu de cryptographie, de développement web et 3D",
+      "legal": "© 2020 All rights reserved.",
+      "home-link": "Accueil",
+      "resume-link": "Mon CV"
+    }
+  }
+}

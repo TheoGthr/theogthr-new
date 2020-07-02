@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "poole";
+@import "hyde";
+
+.sidebar-sticky {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  min-height: 100%;
+  left: 1rem;
+
+  .sidebar-nav {
+    align-self: flex-start;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
