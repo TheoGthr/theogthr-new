@@ -2,6 +2,28 @@
 @import "poole";
 @import "hyde";
 
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+/* 2. Then use it like this in you component scss */
+.mat-icon {
+  transform: scale(0.8);
+}
+
 .sidebar-sticky {
   display: flex;
   flex-direction: column;
@@ -15,10 +37,6 @@
   }
 }
 
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
+.lead {
+  color: rgb(88, 88, 88);
 }
