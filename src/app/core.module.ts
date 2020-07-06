@@ -5,7 +5,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MaterialModule } from './material.module';
+import { MarkdownModule } from 'ngx-markdown';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -24,7 +26,9 @@ export function HttpLoaderFactory(http: HttpClient) {
       isolate: false,
     }),
     MaterialModule,
+    MarkdownModule.forRoot(),
+    FontAwesomeModule,
   ],
-  exports: [TranslateModule, MaterialModule],
+  exports: [TranslateModule, MaterialModule, MarkdownModule, FontAwesomeModule],
 })
 export class CoreModule {}

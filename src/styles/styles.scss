@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "poole";
 @import "hyde";
+@import "variables";
 
 html,
 body {
@@ -19,11 +20,6 @@ body {
   background-size: cover;
 }
 
-/* 2. Then use it like this in you component scss */
-.mat-icon {
-  transform: scale(0.8);
-}
-
 .sidebar-sticky {
   display: flex;
   flex-direction: column;
@@ -34,9 +30,15 @@ body {
 
   .sidebar-nav {
     align-self: flex-start;
+    width: 100%;
   }
 }
 
 .lead {
   color: rgb(88, 88, 88);
+}
+
+.sub-menu-icons {
+  display: flex;
+  justify-content: space-between;
 }

@@ -4,7 +4,8 @@
       "description": "Some thoughts about cryptography, web development and 3D graphics",
       "legal": "© 2020 All rights reserved.",
       "home-link": "Home",
-      "resume-link": "Resume"
+      "resume-link": "Resume",
+      "language-tooltip": "Language"
     }
   }
 }

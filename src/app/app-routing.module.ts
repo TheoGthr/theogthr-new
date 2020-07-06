@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
-import { CryptoComponent } from './crypto/crypto.component';
 import { HomeComponent } from './home.component';
+import { NotFoundComponent } from './not-found.component';
 
 const routes: Routes = [
   {
@@ -10,7 +9,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./crypto/crypto.module').then((m) => m.CryptoModule),
   },
-  { path: '**', component: HomeComponent },
+  {
+    path: 'resume',
+    loadChildren: () =>
+      import('./resume/resume.module').then((m) => m.ResumeModule),
+  },
+  { path: '', component: HomeComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
