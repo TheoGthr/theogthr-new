@@ -83,23 +83,7 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
       </div>
     </div>
   `,
-  styles: [
-    `
-      .mat-icon-button {
-        color: #585858;
-      }
-
-      .external-links {
-        display: flex;
-        width: 20%;
-        justify-content: space-between;
-      }
-
-      .sidebar-nav-icons {
-        margin-top: 0.2rem;
-      }
-    `,
-  ],
+  styleUrls: ['home.component.scss'],
 })
 export class HomeComponent {
   faGithub = faGithub;

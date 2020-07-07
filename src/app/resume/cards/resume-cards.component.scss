@@ -1,0 +1,39 @@
+.mat-card-avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-list-base .mat-list-item {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 0.5em 1em;
+  text-align: justify;
+}
+
+.mat-list-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-grid-tile {
+  overflow: unset;
+}
+
+/** Enterprise **/
+.enterprise-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-item {
+  margin-bottom: 0.5em;
+}
+
+/** Interests **/
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d28445;
+}
