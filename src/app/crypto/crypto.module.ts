@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CryptoComponent } from './crypto.component';
 import { CryptoRoutingModule } from './crypto-routing.module';
-import { CoreModule } from '../core.module';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [CryptoComponent],

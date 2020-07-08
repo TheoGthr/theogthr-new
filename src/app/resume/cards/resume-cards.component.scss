@@ -1,3 +1,5 @@
+$resume-primary: #d28445;
+
 .mat-card-avatar {
   display: flex;
   justify-content: center;
@@ -20,6 +22,15 @@
   overflow: unset;
 }
 
+.mat-title {
+  margin: 0;
+  color: $resume-primary;
+}
+
+.mat-h3 {
+  margin: 0;
+}
+
 /** Enterprise **/
 .enterprise-date {
   display: flex;
@@ -31,9 +42,19 @@
 }
 
 /** Interests **/
+.all-interests {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.two-interests {
+  display: flex;
+  flex-direction: column;
+}
+
 .interest {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d28445;
+  background-color: $resume-primary;
 }

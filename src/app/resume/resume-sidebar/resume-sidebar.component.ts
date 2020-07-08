@@ -2,27 +2,25 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'resume-sidebar',
+  styleUrls: ['resume-sidebar.component.scss'],
   template: `
     <div class="sidebar">
+      <img mat-card-avatar src="/assets/img/resume/profile.jpg" alt="profile" />
+      <div>Lyon · France</div>
+      <div>theogauthier13@gmail.com</div>
       <div class="sidebar-sticky">
-        <div class="sidebar-about">
-          <h1>Resume</h1>
+        <div>
+          <div class="sidebar-about">
+            <h1>Resume</h1>
+          </div>
+          <nav class="sidebar-nav">
+            <a routerLink="/" class="sidebar-nav-item">Home</a>
+            <nav-lang></nav-lang>
+          </nav>
+          <p>
+            <small>{{ 'home.navbar.legal' | translate }}</small>
+          </p>
         </div>
-        <!--TreeResume v-bind:data="articles" :locale="$i18n.locale" -->
-        <mat-selection-list #article [multiple]="false">
-          <mat-list-option routerLink="/resume">
-            Overview
-          </mat-list-option>
-          <mat-list-option routerLink="/resume/experiences">
-            Experiences
-          </mat-list-option>
-        </mat-selection-list>
-        <nav class="sidebar-nav">
-          <a routerLink="/" class="sidebar-nav-item">Home</a>
-        </nav>
-        <p>
-          <small>{{ 'home.navbar.legal' | translate }}</small>
-        </p>
       </div>
     </div>
   `,

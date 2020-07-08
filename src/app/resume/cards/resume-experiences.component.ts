@@ -14,17 +14,17 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
           'resume.experiences.title' | translate
         }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content>
+      <mat-card-content class="mat-typography">
         <!-- Sopra Steria -->
         <div class="experience-item">
           <div class="enterprise-date">
             <div
               [innerHTML]="'resume.experiences.sopra.title' | translate"
-              class="enterprise"
+              class="enterprise mat-title"
             ></div>
             <div
               [innerHTML]="'resume.experiences.sopra.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
           <mat-list role="list">
@@ -52,11 +52,11 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
           <div class="enterprise-date">
             <div
               [innerHTML]="'resume.experiences.exyzt.title' | translate"
-              class="enterprise"
+              class="enterprise mat-title"
             ></div>
             <div
               [innerHTML]="'resume.experiences.exyzt.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
           <mat-list role="list">
@@ -71,12 +71,12 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
         <div class="experience-item">
           <div class="enterprise-date">
             <div
-              class="enterprise"
+              class="enterprise mat-title"
               [innerHTML]="'resume.experiences.prefecture.title' | translate"
             ></div>
             <div
               [innerHTML]="'resume.experiences.prefecture.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
           <mat-list role="list">

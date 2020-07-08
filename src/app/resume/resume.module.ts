@@ -6,7 +6,7 @@ import { ResumeRoutingModule } from './resume-routing.module';
 import { ResumeExperiencesComponent } from './cards/resume-experiences.component';
 import { ResumeEducationComponent } from './cards/resume-education.component';
 import { ResumeInterestsComponent } from './cards/resume-interests.component';
-import { CoreModule } from '../core.module';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [

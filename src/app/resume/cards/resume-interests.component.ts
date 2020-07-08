@@ -20,33 +20,27 @@ import {
           'resume.interests.title' | translate
         }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content>
-        <mat-grid-list cols="2" rowHeight="2:1">
-          <mat-grid-tile>
-            <mat-card class="interest">
-              <fa-icon [icon]="faHeadphones"></fa-icon>
-              <p>Music (Jazz, DnB)</p>
-            </mat-card>
-          </mat-grid-tile>
-          <mat-grid-tile>
-            <mat-card class="interest">
-              <fa-icon [icon]="faMusic"></fa-icon>
-              <p>Drums, piano</p>
-            </mat-card>
-          </mat-grid-tile>
-          <mat-grid-tile>
-            <mat-card class="interest">
-              <fa-icon [icon]="faUtensilSpoon"></fa-icon>
-              <p>Cooking</p>
-            </mat-card>
-          </mat-grid-tile>
-          <mat-grid-tile>
-            <mat-card class="interest">
-              <fa-icon [icon]="faHeartbeat"></fa-icon>
-              <p>Running</p>
-            </mat-card>
-          </mat-grid-tile>
-        </mat-grid-list>
+      <mat-card-content class="all-interests">
+        <div class="two-interests">
+          <mat-card class="interest">
+            <fa-icon [icon]="faHeadphones"></fa-icon>
+            <p>Music (Jazz, DnB)</p>
+          </mat-card>
+          <mat-card class="interest">
+            <fa-icon [icon]="faMusic"></fa-icon>
+            <p>Drums, piano</p>
+          </mat-card>
+        </div>
+        <div class="two-interests">
+          <mat-card class="interest">
+            <fa-icon [icon]="faUtensilSpoon"></fa-icon>
+            <p>Cooking</p>
+          </mat-card>
+          <mat-card class="interest">
+            <fa-icon [icon]="faHeartbeat"></fa-icon>
+            <p>Running</p>
+          </mat-card>
+        </div>
       </mat-card-content>
     </mat-card>
   `,
