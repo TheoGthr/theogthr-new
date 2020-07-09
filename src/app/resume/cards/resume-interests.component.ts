@@ -11,7 +11,7 @@ import {
   selector: 'resume-interests',
   styleUrls: ['resume-cards.component.scss'],
   template: `
-    <mat-card class>
+    <mat-card>
       <mat-card-header>
         <div mat-card-avatar>
           <fa-icon [icon]="faHeart"></fa-icon>
@@ -20,26 +20,26 @@ import {
           'resume.interests.title' | translate
         }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content class="all-interests">
+      <mat-card-content class="all-interests mat-typography">
         <div class="two-interests">
-          <mat-card class="interest">
-            <fa-icon [icon]="faHeadphones"></fa-icon>
+          <div class="interest">
+            <fa-icon [icon]="faHeadphones" size="2x"></fa-icon>
             <p>Music (Jazz, DnB)</p>
-          </mat-card>
-          <mat-card class="interest">
-            <fa-icon [icon]="faMusic"></fa-icon>
+          </div>
+          <div class="interest">
+            <fa-icon [icon]="faMusic" size="2x"></fa-icon>
             <p>Drums, piano</p>
-          </mat-card>
+          </div>
         </div>
         <div class="two-interests">
-          <mat-card class="interest">
-            <fa-icon [icon]="faUtensilSpoon"></fa-icon>
+          <div class="interest">
+            <fa-icon [icon]="faUtensilSpoon" size="2x"></fa-icon>
             <p>Cooking</p>
-          </mat-card>
-          <mat-card class="interest">
-            <fa-icon [icon]="faHeartbeat"></fa-icon>
+          </div>
+          <div class="interest">
+            <fa-icon [icon]="faHeartbeat" size="2x"></fa-icon>
             <p>Running</p>
-          </mat-card>
+          </div>
         </div>
       </mat-card-content>
     </mat-card>

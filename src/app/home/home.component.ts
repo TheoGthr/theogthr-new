@@ -28,16 +28,11 @@ import { Component } from '@angular/core';
         </div>
       </div>
       <div class="content container">
-        <mat-card class="example-card">
+        <mat-card>
           <mat-card-header>
             <mat-card-title>History of cryptography</mat-card-title>
             <mat-card-subtitle>From Ceasar to maths</mat-card-subtitle>
           </mat-card-header>
-          <!--img
-            mat-card-image
-            src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-            alt="Photo of a Shiba Inu"
-          /-->
           <mat-card-content>
             <p>
               A little blog about cryptography: simple mechanisms, history and

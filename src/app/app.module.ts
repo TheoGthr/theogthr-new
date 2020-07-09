@@ -9,7 +9,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './core/material.module';
 import { CoreModule } from './core/core.module';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/');
@@ -31,7 +30,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     }),
     CoreModule,
     BrowserAnimationsModule,
-    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

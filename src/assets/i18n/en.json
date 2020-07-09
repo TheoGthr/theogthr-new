@@ -36,9 +36,9 @@
       "title": "Education",
       "cvut": {
         "title": "Erasmus - Informatics Engineer",
-        "subtitle": "Czech technical university, Prague",
+        "subtitle": "Czech technical university (CVUT), Prague",
         "duration": "09/2018 - 02/2019",
-        "description": "Courses of <b>advanced cryptology, web services and middleware, information security, law and informatics, network security and distributed systems and computing.</b>"
+        "description": "Courses of advanced cryptology, web services and middleware, information security, law and informatics, network security and distributed systems and computing."
       },
       "tse": {
         "title": "Informatics and Image Engineer",
@@ -47,8 +47,8 @@
         "description": "Courses of web, Java and C/C++ development, Agile methods, computer science. Cryptology option."
       },
       "prepa": {
-        "title": "Preparatory School - Maths and Physics, France",
-        "subtitle": "Informatics and Image Engineer",
+        "title": "Preparatory School (CPGE) - Maths and Physics",
+        "subtitle": "Lafayette, Clermont-Ferrand",
         "duration": "2014 - 2016",
         "description": "Courses of maths, physics and informatics fundamentals."
       }

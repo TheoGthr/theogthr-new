@@ -5,7 +5,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
   selector: 'resume-education',
   styleUrls: ['resume-cards.component.scss'],
   template: `
-    <mat-card class>
+    <mat-card>
       <mat-card-header>
         <div mat-card-avatar>
           <fa-icon [icon]="faGraduationCap"></fa-icon>
@@ -14,24 +14,29 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
           'resume.education.title' | translate
         }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content>
+      <mat-card-content class="mat-typography">
         <!-- CVUT -->
         <div class="experience-item">
           <div class="enterprise-date">
             <div
               [innerHTML]="'resume.education.cvut.title' | translate"
-              class="enterprise"
+              class="enterprise mat-title"
             ></div>
             <div
               [innerHTML]="'resume.education.cvut.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
-          <div class="jobs">
-            <p
+          <div
+            [innerHTML]="'resume.education.cvut.subtitle' | translate"
+            class="mat-body-strong"
+          ></div>
+          <mat-list role="list">
+            <mat-list-item
+              role="listitem"
               [innerHTML]="'resume.education.cvut.description' | translate"
-            ></p>
-          </div>
+            ></mat-list-item>
+          </mat-list>
           <mat-divider></mat-divider>
         </div>
         <!-- TSE -->
@@ -39,16 +44,24 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
           <div class="enterprise-date">
             <div
               [innerHTML]="'resume.education.tse.title' | translate"
-              class="enterprise"
+              class="enterprise mat-title"
             ></div>
             <div
               [innerHTML]="'resume.education.tse.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
-          <div class="jobs">
-            <p [innerHTML]="'resume.education.tse.description' | translate"></p>
-          </div>
+          <div
+            [innerHTML]="'resume.education.tse.subtitle' | translate"
+            class="mat-body-strong"
+          ></div>
+          <mat-list role="list">
+            <mat-list-item
+              role="listitem"
+              [innerHTML]="'resume.education.tse.description' | translate"
+            >
+            </mat-list-item>
+          </mat-list>
           <mat-divider></mat-divider>
         </div>
         <!-- CPGE -->
@@ -56,18 +69,24 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
           <div class="enterprise-date">
             <div
               [innerHTML]="'resume.education.prepa.title' | translate"
-              class="enterprise"
+              class="enterprise mat-title"
             ></div>
             <div
               [innerHTML]="'resume.education.prepa.duration' | translate"
-              class="date"
+              class="date mat-h3"
             ></div>
           </div>
-          <div class="jobs">
-            <p
+          <div
+            [innerHTML]="'resume.education.prepa.subtitle' | translate"
+            class="mat-body-strong"
+          ></div>
+          <mat-list role="list">
+            <mat-list-item
+              role="listitem"
               [innerHTML]="'resume.education.prepa.description' | translate"
-            ></p>
-          </div>
+            >
+            </mat-list-item>
+          </mat-list>
         </div>
       </mat-card-content>
     </mat-card>

@@ -56,5 +56,9 @@ $resume-primary: #d28445;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $resume-primary;
+  font-weight: 500;
+
+  fa-icon {
+    color: $resume-primary;
+  }
 }

@@ -31,6 +31,15 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
       </div>
     </div>
   `,
+  styles: [
+    `
+      .external-links {
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+      }
+    `,
+  ],
 })
 export class NavLangComponent {
   faGithub = faGithub;

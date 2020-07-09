@@ -6,15 +6,17 @@ import { Component } from '@angular/core';
   template: `
     <div class="sidebar">
       <img mat-card-avatar src="/assets/img/resume/profile.jpg" alt="profile" />
-      <div>Lyon · France</div>
-      <div>theogauthier13@gmail.com</div>
+      <div class="lead mat-subheading-1">Lyon · France</div>
+      <div class="lead mat-subheading-1">theogauthier13@gmail.com</div>
       <div class="sidebar-sticky">
         <div>
           <div class="sidebar-about">
-            <h1>Resume</h1>
+            <h1>{{ 'home.navbar.resume-link' | translate }}</h1>
           </div>
           <nav class="sidebar-nav">
-            <a routerLink="/" class="sidebar-nav-item">Home</a>
+            <a routerLink="/" class="sidebar-nav-item">{{
+              'home.navbar.home-link' | translate
+            }}</a>
             <nav-lang></nav-lang>
           </nav>
           <p>

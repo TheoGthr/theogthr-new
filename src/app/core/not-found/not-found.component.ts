@@ -10,11 +10,6 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
         <mat-card-header>
           <mat-card-title>404 Not found</mat-card-title>
         </mat-card-header>
-        <!--img
-            mat-card-image
-            src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-            alt="Photo of a Shiba Inu"
-          /-->
         <mat-card-content>
           <p>
             The page you requested does not exist.
