@@ -2,25 +2,26 @@
 .container {
   max-width: 100%;
   display: flex;
-  margin-left: 30%; // maybe not?
-  margin-right: 2%; // maybe not?
 
-  @media screen and (max-width: 16500px) {
-    // to var
+  @media screen and (max-width: 1650px) and (min-width: 750px) {
+    margin-left: 30%;
+    margin-right: 2%;
+  }
+
+  @media screen and (max-width: 1650px) {
     flex-direction: column;
   }
 }
 
 .resume-left {
-  flex-grow: 1;
+  flex-shrink: 1.5;
 }
 
 .resume-right {
   display: flex;
   flex-direction: column;
-  flex-grow: 3;
 
-  @media screen and (min-width: 16500px) {
+  @media screen and (min-width: 1650px) and (min-width: 750px) {
     margin-left: 2em;
   }
 }
