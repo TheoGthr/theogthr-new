@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
       <div class="sidebar-sticky">
         <div>
           <div class="sidebar-about">
-            <h1>{{ 'home.navbar.resume-link' | translate }}</h1>
+            <h1>Théo Gauthier</h1>
           </div>
           <nav class="sidebar-nav">
             <a routerLink="/" class="sidebar-nav-item">{{

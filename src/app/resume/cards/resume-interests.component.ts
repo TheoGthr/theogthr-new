@@ -24,21 +24,21 @@ import {
         <div class="two-interests">
           <div class="interest">
             <fa-icon [icon]="faHeadphones" size="2x"></fa-icon>
-            <p>Music (Jazz, DnB)</p>
+            <p>{{ 'resume.interests.music' | translate }}</p>
           </div>
           <div class="interest">
             <fa-icon [icon]="faMusic" size="2x"></fa-icon>
-            <p>Drums, piano</p>
+            <p>{{ 'resume.interests.instruments' | translate }}</p>
           </div>
         </div>
         <div class="two-interests">
           <div class="interest">
             <fa-icon [icon]="faUtensilSpoon" size="2x"></fa-icon>
-            <p>Cooking</p>
+            <p>{{ 'resume.interests.cooking' | translate }}</p>
           </div>
           <div class="interest">
             <fa-icon [icon]="faHeartbeat" size="2x"></fa-icon>
-            <p>Running</p>
+            <p>{{ 'resume.interests.running' | translate }}</p>
           </div>
         </div>
       </mat-card-content>

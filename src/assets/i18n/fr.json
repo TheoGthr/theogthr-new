@@ -7,5 +7,58 @@
       "resume-link": "Mon CV",
       "language-tooltip": "Langue"
     }
+  },
+  "resume": {
+    "experiences": {
+      "title": "Expérience",
+      "sopra": {
+        "title": "Sopra Steria, Lyon",
+        "duration": "02/2019 - ajd.",
+        "jobs": {
+          "one": "<div class='job-header'>Développeur fullstack (04/20 - ajd.)</div><div><b>Redesign et paliers techniques de différentes applications</b> pour le compte d'un acteur majeur de l'énergie en France. Intégré dans une <b>Agile SAFe dev team</b>, je dois remettre à jour des applications en termes techniques et architecturaux. Nous devons notamment les rendre <b>sécurisées</b> (SAST, audits), user-friendly (UX design, support, nouvelles interfaces), et développeur-friendly (CI/CD fonctionnelle, nouvelles stacks techniques).</div><i>Contexte : Java EE (6, 7 et 8), JSP, Gitlab/Jenkins, Ansible, CxSAST, OWASP ZAP</i>",
+          "two": "<div class='job-header'>Membre d'AppSec ARA (03/20 - ajd.)</div><div>En tant que membre de la guilde de sécurité applicative (AppSec), je suis chargé de promouvoir les bonnes pratiques de sécurité web et suis amené à former mes collaborateurs sur les outils et concepts de sécurité applicative. J'ai aussi eu l'occasion d'organiser un concours de pentest sur des applications client.</div><i>Contexte : Checkmarx SAST, OWASP ZAP, RootMe challenges</i>",
+          "three": "<div class='job-header'>Développeur cellule DevSecOps (01/20 - 04/20)</div><div>Réalisation de diverses <b>mises en place de CI/CD</b> pour le compte d'un acteur majeur de l'énergie en France. Intégré dans une <b>équipe transverse DevSecOps</b>, j'ai pu acquérir de nouvelles compétences techniques, découvrir la mise en place de CI/CD et la méthodologie DevSecOps. J'ai eu l'occasion de participer à la mise en place de diverses stacks CI/CD sur différents projets et de développer de nouvelles solutions pour eux.</div><i>Contexte : Jenkins, Ansible, Gitlab, Docker, RedHat OS, Git Flow</i>",
+          "four": "<div class='job-header'>Développeur fullstack (02/19 - 12/19)</div><div>Développement d'une application web pour le compte d'un acteur majeur de l'énergie en France. Intégré dans une petite équipe de dév, j'ai pu acquérir de nouvelles compétences techniques, participer au développement d'une application très utilisée par les équipes client, <b>travailler avec le framework Agile SAFe, et en intéraction avec différents métiers : UX Designer, Product Owners, Business Managers, Architectes</b>... Nombre d'utilisateurs uniques touchés par mois : 35000.</div><i>Contexte : Agile SAFe, Angular 7, Material design, Java Spring, Hibernate, Elastic ELK</i>"
+        }
+      },
+      "exyzt": {
+        "title": "EXYZT, Castres",
+        "duration": "07/2018 - 08/2018",
+        "job": "<div class='job-header'>Développeur Back-End - stage</div>Développement d'un serveur NodeJS permettant de formatter et envoyer des données sur une instance CouchDB. Développement d'une fonctionnalité sur un dispatcher de données existant permettant d'envoyer des photos d'un PDA vers un serveur distant. <i>Contexte : NodeJS, CouchDB, PHP</i>"
+      },
+      "prefecture": {
+        "title": "Préfecture du Gard, Nîmes",
+        "duration": "01/2017 - 03/2017",
+        "job": "<div class='job-header'>Développeur Front-End - stage</div>Développement de nouveaux sites intranets 'from scratch' et mise à jour d'existant. <i>Contexte : HTML5, CSS3, Bootstrap, PHP, Ubuntu Server</i>"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "cvut": {
+        "title": "Erasmus - Informatics Engineer",
+        "subtitle": "Czech technical university (CVUT), Prague",
+        "duration": "09/2018 - 02/2019",
+        "description": "Cours de crytpographie avancée, web services et middlewares, sécurité de l'information, droit et informatique, sécurité des réseaux et systèmes distribués."
+      },
+      "tse": {
+        "title": "Ingénieur informatique et traitement de l'image",
+        "subtitle": "Ecole d'ingénieurs Télécom Saint-Etienne",
+        "duration": "2016 - 2019",
+        "description": "Cours de développement web, Java et C/C++, méthodes Agile, sciences informatiques. Option cryptographie."
+      },
+      "prepa": {
+        "title": "CPGE - Maths et Physique (PCSI/PSI)",
+        "subtitle": "Lycée Lafayette, Clermont-Ferrand",
+        "duration": "2014 - 2016",
+        "description": "Cours de maths, physique et informatique fondamentales."
+      }
+    },
+    "interests": {
+      "title": "Intérêts",
+      "music": "Musique (Jazz, DnB)",
+      "instruments": "Batterie, piano",
+      "cooking": "Cuisine",
+      "running": "Course à pied"
+    }
   }
 }
